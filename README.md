@@ -229,3 +229,10 @@ reporters: ['progress', 'coverage'],
 `gulp karma`でテスト実行。  
 「coverage」ディレクトリが作成され、HTMLのレポートが入ってる。  
 .gitignoreに「coverage/」を追加する。
+
+
+## Sinon.JS
+```sh
+$ npm install sinon --save-dev
+```
+ToDO
