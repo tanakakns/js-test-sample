@@ -6,7 +6,7 @@ jsのテスト環境
   * テスティングフレームワーク
 * Karma
   * テストランナー
-  * カバレッジ、
+  * カバレッジレポートを出す
 * Sinon.JS
   * Spy、Stub、Mockツール
 * PhantomJS
@@ -134,7 +134,7 @@ Config file generated at "C:\workspace\js-test-sample\karma.conf.js".
 
 「tsd」は、「TypeScript Definition manager」の略で、TypeScriptの型定義を管理するためのツール。  
 JasmineをTypeScriptで使用する場合、厳密な型定義のTypeScriptでは使用するライブラリ用の型定義を最初に行うのは面倒。  
-tsdを使えば、tsdで管理されている型定義を難無く入手できる。　　
+tsdを使えば、tsdで管理されている型定義を難無く入手できる。  
 下記では、tsdの初期化、Jasmineの型定義の検索（tds query）、導入を行っている。
 
 ```sh
@@ -227,5 +227,5 @@ reporters: ['progress', 'coverage'],
 ```
 
 `gulp karma`でテスト実行。  
-「coverage」ディレクトリが作成され、HTMLのレポートが入ってる。
+「coverage」ディレクトリが作成され、HTMLのレポートが入ってる。  
 .gitignoreに「coverage/」を追加する。
